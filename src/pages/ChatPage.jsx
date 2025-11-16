@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Chatwindow from '../components/Chatwindow'
+import Chatwindow from '../components/ChatWindow'
 import Sidebar from '../components/Sidebar'
 import ContactInfo from '../components/ContactInfo'
 
