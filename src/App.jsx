@@ -21,7 +21,7 @@ function App() {
   const onSubmit = async (data,e) => {
     
     if(e.nativeEvent.submitter.name === "Log in"){
-      const r = await fetch("https://backend-chat-app-di8u.onrender.com:3000/api/auth/login",
+      const r = await fetch("https://backend-chat-app-di8u.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -37,7 +37,7 @@ function App() {
       }
     }
     else{
-      const r = await fetch("https://backend-chat-app-di8u.onrender.com:3000/api/auth/register",
+      const r = await fetch("https://backend-chat-app-di8u.onrender.com/api/auth/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
